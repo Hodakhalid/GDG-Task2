@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #888;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    padding-top: 10rem;
+}
+
+#hero div,
+#os div {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#hero h1,
+#hero p,
+.btn {
+    margin-top: 2rem;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 0.7rem;
+}
+
+.ios {
+    background-color: rgb(80, 201, 163);
+}
+
+.mac {
+    background-color: rgb(87, 87, 255);
+}
+
+/*//////////////////////////////*/
+
+#track {
+    width: 100%;
+    height: 40vh;
+}
+
+#track div {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*//////////////////////////////*/
+
+#about {
+    padding: 50px 0;
+}
+
+.all {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.left-img {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.left-img img {
+    width: 100%;
+}
+
+.right-cont {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.feature {
+    margin-bottom: 35px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #aaa;
+    line-height: 1.7;
+}
+
+/*//////////////////////////////*/
+
+
+#access {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+#access div {
+    width: 760px;
+    margin: auto;
+    text-align: center;
+}
+
+#access img {
+    width: 700px;
+    height: 500px;
+    margin-top: 1rem;
+}
+
+/*//////////////////////////////*/
+
+#workflow {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#workflow .carts {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#workflow .carts .cart {
+    width: 20%;
+    display: inline-block;
+}
+
+.cart img,
+.cart h3 {
+    margin-bottom: 0.5rem;
+}
+
+/*//////////////////////////////*/
+
+#logoes {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#logoes div {
+    width: 17%;
+    display: inline-block;
+}
+
+/*//////////////////////////////*/
+
+#os {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+/*//////////////////////////////*/
+#footer {
+    background-color: #f4f5f7;
+    padding: 35px 15%;
+    margin-top: 5rem;
+}
+
+.foot {
+    width: 100%;
+    height: 50px;
+    text-align: justify;
+}
+
+.foot::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.logo,
+.contact,
+.privacy,
+.install,
+#social {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 12%;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.contact,
+.privacy,
+.install {
+    width: 17%;
+}
+
+.contact a,
+.privacy a,
+.install a {
+    display: block;
+    text-decoration: none;
+    color: #62676c;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#social {
+    width: 15%;
+    text-align: right;
+}
+
+#social img {
+    width: 18px;
+    margin-left: 8px;
+}
